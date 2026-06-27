@@ -26,7 +26,7 @@ const BookDetailPage=()=>{
         try{
        await firebase.placeOrder(params.id,quantity)
        toast.success('Order placed successfully')
-       console.log(firebase.user)
+
         }
         catch(error)
         {
